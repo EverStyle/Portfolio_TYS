@@ -1,0 +1,172 @@
+.contact_container {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #a1a1a1;
+}
+
+.contact_container.left {
+    left: 0;
+}
+
+.contact_container.right {
+    right: 0;
+}
+.contact_img_block{
+    padding-bottom: 10px;
+}
+.left-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); 
+}
+
+.right-wrapper {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%); 
+}
+
+
+/* TelegramIcon.css */
+
+.telegram-icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .telegram-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out; /* Add fill transition */
+  }
+  
+  .telegram-icon:hover {
+    transform: scale(1.2) translateY(-5px);
+    fill: lightblue; /* Change to light blue color on hover */
+  }
+  
+  /* CSS Transition classes */
+  .telegram-icon-transition-enter {
+    opacity: 0;
+  }
+  
+  .telegram-icon-transition-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .telegram-icon-transition-exit {
+    opacity: 1;
+  }
+  
+  .telegram-icon-transition-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+
+  /* GitHubIcon.css */
+
+.github-icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .github-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out; /* Add fill transition */
+  }
+  
+  .github-icon:hover {
+    transform: scale(1.2) translateY(-5px);
+    fill: lightblue; /* Change to light blue color on hover */
+  }
+  
+  /* CSS Transition classes */
+  .github-icon-transition-enter {
+    opacity: 0;
+  }
+  
+  .github-icon-transition-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .github-icon-transition-exit {
+    opacity: 1;
+  }
+  
+  .github-icon-transition-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+
+  /* VKontakteIcon.css */
+
+.vk-icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .vk-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out; /* Add fill transition */
+  }
+  
+  .vk-icon:hover {
+    transform: scale(1.2) translateY(-5px);
+    fill: lightblue; /* Change to light blue color on hover */
+  }
+  
+  /* CSS Transition classes */
+  .vk-icon-transition-enter {
+    opacity: 0;
+  }
+  
+  .vk-icon-transition-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .vk-icon-transition-exit {
+    opacity: 1;
+  }
+  
+  .vk-icon-transition-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+
+/* RotatingEmailLink.css */
+
+.rotating-email-link-container {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(90deg);
+    transform-origin: top right;
+  }
+  
+  .rotating-email-link {
+    display: block;
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .email-text {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .email-text:hover {
+    background-color: lightblue;
+  }

@@ -1,0 +1,28 @@
+.header_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #929292;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header_img_block {
+    font-size: 24px;
+    padding: 10px; /* FIX!!!!!!!!!!*/
+  }
+
+  .header_nav_block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* FIX!!!!!!*/
+  }
+  .nav_buttons{
+    padding: 10px;
+  }
