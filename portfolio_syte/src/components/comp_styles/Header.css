@@ -1,28 +1,82 @@
 .header_container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #929292;
-    /* padding-left: 2rem; */
-    /* padding-right: 2rem; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header_img_block {
-    font-size: 24px;
-    padding: 10px; /* FIX!!!!!!!!!!*/
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: #0d007e; */
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
 
-  .header_nav_block{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px; /* FIX!!!!!!*/
-  }
-  .nav_buttons{
-    padding: 10px;
-  }
+.header_img_block {
+  font-size: 24px;
+  /* width: 50px; */
+  /* Adjust the width of the SVG container */
+  height: 50px;
+  /* Adjust the height of the SVG container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  /* FIX!!!!!!!!!!*/
+}
+
+.header_nav_block {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* FIX!!!!!!*/
+}
+
+.nav_buttons {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* color: transparent; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav_buttons:hover {
+  color: rgb(86, 86, 255);
+  background-color: transparent;
+}
+
+.nav_buttons:active {
+  color: white;
+  background-color: rgb(69, 208, 255);
+}
+
+.svg-container {
+  display: inline-block;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.svg-icon {
+  transition: fill 0.3s, stroke 0.3s color ;
+}
+
+.svg-container:hover .svg-icon polygon {
+  fill: white;
+  stroke: darkblue;
+}
+.svg-container:hover .svg-icon text {
+  fill: darkblue;
+}
+
+.svg-container:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1));
+}

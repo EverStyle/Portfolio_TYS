@@ -74,9 +74,9 @@ function App() {
           <div ref={workRef}>
             <Work />
           </div>
-          <div ref={statusRef}>
+          {/* <div ref={statusRef}>
             <Status />
-          </div>
+          </div> */}
         </main>
         <footer>
           <Footer />

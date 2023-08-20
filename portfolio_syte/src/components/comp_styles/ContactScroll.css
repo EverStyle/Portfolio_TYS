@@ -2,7 +2,8 @@
     top: 50%;
     transform: translateY(-50%);
     padding: 10px;
-    background-color: #a1a1a1;
+    z-index: 3;
+    /* background-color: #a1a1a1; */
 }
 
 .contact_container.left {
@@ -19,7 +20,7 @@
     position: fixed;
     top: 50%;
     left: 0;
-    transform: translateY(-50%); 
+    transform: translateY(120%); 
 }
 
 .right-wrapper {
@@ -150,7 +151,7 @@
     position: fixed;
     top: 50%;
     right: 0;
-    transform: translateY(-50%) rotate(90deg);
+    transform: translateY(950%) rotate(90deg);
     transform-origin: top right;
   }
   
@@ -158,9 +159,9 @@
     display: block;
     padding: 5px;
     background-color: transparent;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .email-text {

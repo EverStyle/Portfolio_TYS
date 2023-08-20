@@ -4,8 +4,8 @@ import './comp_styles/Footer.css';
 function Footer() {
     return (
         <div className='footer_container'>
-            <div className='footer_img_block'>
-                Footer
+            <div className='footer_text'>
+            Дизайн и разработка Табачок Юрий Сергеевич © 2023
             </div>
             
         </div>

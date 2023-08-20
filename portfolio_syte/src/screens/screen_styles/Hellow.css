@@ -1,4 +1,55 @@
-.hellow_container{
-    width: 1080px;
+/* .hellow_container {
+    width: 100%;
     height: 100vh;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+  
+  .hellow_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: -999
+  }
+  
+  .hellow_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent, #112240), url('../../assets/backgr.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  .hellow_content {
+    position: relative;
+    z-index: 1;
+  }
+  .hellow_text {
+    font-size: 24px; /* Adjust as needed */
+    margin-bottom: 10px; /* Add some spacing between elements */
+  }
+  
+  .hellow_text_expanded {
+    font-size: 36px; /* Adjust as needed */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add some spacing between elements */
+  }
+  
+  .hellow_discription {
+    font-size: 16px; /* Adjust as needed */
+
+  }
